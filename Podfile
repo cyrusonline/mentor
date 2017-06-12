@@ -9,6 +9,8 @@ target 'yrmentor' do
   pod 'Firebase/Core'
   pod 'Firebase/AdMob'
   pod 'Firebase/Database'
+  pod 'Firebase/Storage'
+  pod 'SDWebImage'
 
   target 'yrmentorTests' do
     inherit! :search_paths
